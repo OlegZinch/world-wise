@@ -1,0 +1,14 @@
+import { Link } from 'react-router'
+import PageNav from '../components/PageNav'
+
+function HomePage() {
+  return (
+    <div>
+      <PageNav />
+      <h1>World Wise</h1>
+      <Link to='/pricing'>Pricing</Link>
+    </div>
+  )
+}
+
+export default HomePage
