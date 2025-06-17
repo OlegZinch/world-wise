@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useParams } from 'react-router'
 
 import BackButton from './BackButton'
-import useCities from '../hooks/useCities'
+import { useCities } from '../hooks/useCities'
 
 import styles from './City.module.css'
 import Spinner from './Spinner'

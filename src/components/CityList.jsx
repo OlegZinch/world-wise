@@ -1,7 +1,7 @@
 import CityItem from './CityItem'
 import Spinner from './Spinner'
 import Message from './Message'
-import useCities from '../hooks/useCities'
+import { useCities } from '../hooks/useCities'
 
 import styles from './CityList.module.css'
 

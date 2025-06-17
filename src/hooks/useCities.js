@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { CitiesContext } from '../contexts/CitiesContext'
 
-function useCities() {
+export function useCities() {
   const ctx = useContext(CitiesContext)
   if (ctx === undefined)
     throw new Error(
@@ -10,5 +10,3 @@ function useCities() {
 
   return ctx
 }
-
-export default useCities
