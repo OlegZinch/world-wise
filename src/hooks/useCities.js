@@ -7,6 +7,5 @@ export function useCities() {
     throw new Error(
       'Cities context was used outside the CitiesContextProvider.'
     )
-
   return ctx
 }
