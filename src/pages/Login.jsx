@@ -22,7 +22,6 @@ export default function Login() {
   }
 
   useEffect(() => {
-    console.log('isAuthenticated:', isAuthenticated)
     if (isAuthenticated) {
       navigate('/app', { replace: true })
     }
